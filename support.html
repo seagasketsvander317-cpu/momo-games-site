@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Support | MOMO Games</title>
+  <style>
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #101522;
+      color: #ffffff;
+      font-family: Arial, "Noto Sans JP", sans-serif;
+      line-height: 1.8;
+    }
+
+    header {
+      text-align: center;
+      padding: 65px 20px;
+      background: linear-gradient(135deg, #172b50, #101522);
+    }
+
+    h1 { margin: 0; font-size: 36px; }
+    header p { color: #8fdcff; }
+
+    main {
+      max-width: 850px;
+      margin: auto;
+      padding: 40px 20px;
+    }
+
+    section {
+      background: #1b2538;
+      padding: 30px;
+      margin-bottom: 25px;
+      border-radius: 14px;
+    }
+
+    h2 { color: #8fdcff; margin-top: 0; }
+
+    a { color: #8fdcff; }
+
+    .button {
+      display: inline-block;
+      padding: 12px 20px;
+      background: #2879c7;
+      color: white;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px;
+      color: #9aa7bd;
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>MOMO Games</h1>
+  <p>Support / サポート</p>
+</header>
+
+<main>
+  <section>
+    <h2>ボルダリングタワー</h2>
+    <p>
+      ゲームに関するご質問、不具合報告、ご意見などは、
+      下記メールアドレスまでお問い合わせください。
+    </p>
+    <p>
+      For questions, bug reports, or feedback about
+      Bouldering Tower, please contact us by email.
+    </p>
+  </section>
+
+  <section>
+    <h2>Contact / お問い合わせ</h2>
+    <p>
+      Email:
+      <a id="contact-email"></a>
+    </p>
+    <p>
+      お問い合わせの際は、ゲーム名・ご利用端末・
+      問題の内容をお知らせください。
+    </p>
+    <p>
+      When contacting us, please include the game name,
+      your device model, and a description of the issue.
+    </p>
+  </section>
+
+  <a class="button" href="index.html">← Back to Home</a>
+</main>
+
+<footer>
+  © 2026 MOMO Games. All rights reserved.
+</footer>
+
+<script>
+  // Replace with your official support email address.
+  const email = "YOUR_EMAIL@example.com";
+  const link = document.getElementById("contact-email");
+  link.textContent = email;
+  link.href = "mailto:" + email;
+</script>
+
+</body>
+</html>
